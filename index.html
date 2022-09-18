@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+
+  <div class="score-board">
+    <div class="choice-img-div">
+      <img id = "user-img-thumb" class = "choice-thumbnail" src="images/s.png" alt="user-choice">
+    </div>
+
+    <div id="user-label" class="badge">user🧑</div>
+    <div id="computer-label" class="badge">comp🖥️</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+
+    <div class="choice-img-div">
+      <img id="comp-img-thumb" class = "choice-thumbnail" src="images/s.png" alt="comp-choice">
+    </div>
+  </div>
+
+
+  <div class="result">
+    <p>Let's play!</p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <img src="images/r.png" alt="rock-img">
+    </div>
+    <div class="choice" id="p">
+      <img src="images/p.png" alt="paper-img">
+    </div>
+    <div class="choice" id="s">
+      <img src="images/s.png" alt="scissors-img">
+    </div>
+  </div>
+
+  <p id="action-message">Make your move.</p>
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
